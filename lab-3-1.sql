@@ -2,6 +2,11 @@
 
 -- Expected result: 150 rows, ending with
 --
+SELECT year, COUNT(*) FROM teams
+GROUP BY year;
+
+
+
 -- | 2011 | 30       |
 -- | 2012 | 30       |
 -- | 2013 | 30       |

@@ -3,6 +3,11 @@
 
 -- Expected result: 92 rows, ending with
 --
+
+SELECT year, name, wins
+FROM teams
+WHERE wins>100;
+
 -- | 2016 | Chicago Cubs           | 103  |
 -- | 2017 | Cleveland Indians      | 102  |
 -- | 2017 | Houston Astros         | 101  |
